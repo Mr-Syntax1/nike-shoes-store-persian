@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px){
+    html{
+        font-size: 0.75rem;
+    }
+    .hero-section{
+        padding: 1rem 1rem 10rem 1rem;
+    }
+    .hero-section-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        gap: 8rem;
+    }
+    .product-grid{
+        grid-template-columns: repeat(auto-fit,minmax(12rem,1fr));
+        gap: .8rem;
+
+    }
+    #cart-items-container{
+        width: 90%;
+    }
+    #login-form{
+        width: 80%;
+    }
+}

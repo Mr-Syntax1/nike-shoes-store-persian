@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="cart-container flex flex-col">
+
+         <!-- <p class="font-rokh font-size-2 font-weigth-700">سبد خرید شما : </p>
+        <p class="font-exo2 font-size-1">username : ali</p> -->
+
+        <div id="cart-items-container" class="flex flex-col">
+
+        <!-- <div class="cart-item flex justify-between items-center padding-1">
+            <img src="./assets/images/AIR-MAX.jpg" alt="">
+            <p class="font-exo2">AIR MAX</p>
+            <p>7/000/000 تومان</p>
+            <button>حذف</button>
+        </div>
+        <div class="cart-item flex justify-between items-center padding-1">
+            <img src="./assets/images/AIR-MAX.jpg" alt="">
+            <p class="font-exo2">AIR MAX</p>
+            <p>7/000/000 تومان</p>
+            <button>حذف</button>
+        </div>
+        <div class="cart-item flex justify-between items-center padding-1">
+            <img src="./assets/images/AIR-MAX.jpg" alt="">
+            <p class="font-exo2">AIR MAX</p>
+            <p>7/000/000 تومان</p>
+            <button>حذف</button>
+        </div>
+        <div class="cart-item flex justify-between items-center padding-1">
+            <img src="./assets/images/AIR-MAX.jpg" alt="">
+            <p class="font-exo2">AIR MAX</p>
+            <p>7/000/000 تومان</p>
+            <button>حذف</button>
+        </div> -->
+        </div>
+
+    <!-- <p>مجموعا 4 کالا با ارزش 18,000,000 میلیون</p>  -->
+
+    </section>
+    
+    <script src="./scripts/cart.js"></script>
+
+    <script>
+        const deleteItem = (id)=>{
+            if (confirm('ایا برای حذف اطمینان دارید؟')) {
+                const username = JSON.parse(localStorage.getItem("logged-in"))?.username;
+            let cart = JSON.parse(localStorage.getItem(username))?.cart;
+
+            cart = cart.filter((item) => item.id != id);
+
+            localStorage.setItem(username,JSON.stringify({username:username,cart:cart}));
+
+            alert('با موفقیت حذف شد')
+            location.reload()
+            }
+
+        }
+    </script>
+
+</body>
+</html>
