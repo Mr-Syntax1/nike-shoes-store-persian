@@ -10,7 +10,6 @@ This project was created as a learning exercise by following a YouTube instructo
 
 👉 [View Demo on GitHub Pages](https://Mr-Syntax1.github.io/Nike-Shoes-Store/)
 
-*(The link will work once GitHub Pages is enabled in the repository settings.)*
 
 ---
 
