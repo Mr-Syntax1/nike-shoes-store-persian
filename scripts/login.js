@@ -46,11 +46,12 @@ loginForm.addEventListener('submit',(event)=>{
             //prose login
             createLocalStorageData(username);
             createLoginSession(username)
-            location.replace(`${location.origin}/index.html`)
+            location.replace(`${location.origin}./index.html`)
 
         }else alert('رمز عبور اشتباه')
 
     }else alert('نام کاربری یافت نشد')
         
+
 
 })
