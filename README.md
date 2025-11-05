@@ -8,7 +8,7 @@ This project was created as a learning exercise by following a YouTube instructo
 
 ## 🔴 Live Demo
 
-👉 [View Demo on GitHub Pages](https://Mr-Syntax1.github.io/Nike-Shoes-Store/)
+👉 [View Demo on GitHub Pages](https://mr-syntax1.github.io/nike-shoes-store-persian/)
 
 
 ---
