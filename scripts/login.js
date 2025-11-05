@@ -41,17 +41,24 @@ loginForm.addEventListener('submit',(event)=>{
 
 
 
-    if(userExist){
-        if(passwordMatch) {
-            //prose login
-            createLocalStorageData(username);
-            createLoginSession(username)
-            location.replace(`${location.origin}./index.html`)
+    if (userExist) {
+    if (passwordMatch) {
+        // process login
+        createLocalStorageData(username);
+        createLoginSession(username);
 
-        }else alert('رمز عبور اشتباه')
+        // redirect to home page (GitHub Pages safe)
+        location.replace(`${location.origin}/index.html`);
+        // یا --> location.href = "/index.html"
 
-    }else alert('نام کاربری یافت نشد')
+    } else {
+        alert('رمز عبور اشتباه')
+    }
+} else {
+    alert('نام کاربری یافت نشد')
+}
         
 
 
 })
+
