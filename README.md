@@ -34,15 +34,24 @@ This project was created as a learning exercise by following a YouTube instructo
 
 ---
 
+
 ## 📂 Project Structure
 
-| File | Description |
-|------|-------------|
+| Location | Description |
+|----------|-------------|
 | `index.html` | Home page |
-| `products.html` | Product list page |
-| `login.html` / `register.html` | Authentication pages |
-| `style.css` | Main styling |
-| `cart.js`, `products.js`, `login.js`, etc. | JavaScript logic files |
+| `login.html` | Login page |
+| `cart.html` | Shopping cart page |
+| `assets/scripts/constants/products.js` | Products list (data) |
+| `assets/scripts/constants/users.js` | Default users (seed data) |
+| `assets/scripts/utils/*` | Utility functions (LocalStorage, validation, etc) |
+| `assets/scripts/cart.js` | Cart page logic |
+| `assets/scripts/login.js` | Login logic |
+| `assets/scripts/main.js` | Home page logic |
+| `assets/styles/main.css` | Main styling |
+| `assets/styles/mobile.css` | Mobile responsive styling |
+| `assets/styles/_fonts.css` | Font setup |
+| `assets/styles/_utils.css` | Utility classes |
 
 ---
 
