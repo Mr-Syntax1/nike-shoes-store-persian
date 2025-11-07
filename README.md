@@ -1,5 +1,5 @@
 # nike-shoes-store-persian
-# Nike Shoes Store (Persian Demo)
+# Nike Shoes Store (Persian website)
 
 A fully responsive **Persian (RTL)** online Nike shoes store built with **HTML**, **CSS**, and **Vanilla JavaScript**.  
 This project was created as a learning exercise by following a YouTube instructor and customizing parts independently.
